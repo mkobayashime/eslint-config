@@ -17,6 +17,9 @@ const config = {
       },
     },
   },
+  rules: {
+    "@typescript-eslint/no-extra-semi": "off", // conflicts with Prettier
+  },
 };
 
 module.exports = config;
