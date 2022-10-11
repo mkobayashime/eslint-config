@@ -1,17 +1,7 @@
 /** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 const config = {
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:import/typescript",
-    "prettier",
-  ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    sourceType: "module",
-  },
-  plugins: ["@typescript-eslint", "import"],
+  extends: ["eslint:recommended", "plugin:import/recommended", "prettier"],
+  plugins: ["import"],
   rules: {
     "import/first": "error",
     "import/no-default-export": "warn",
