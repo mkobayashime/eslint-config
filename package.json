@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "base"
+    "base",
+    "typescript"
   ],
   "devDependencies": {
     "prettier": "^2.7.1"
