@@ -8,7 +8,7 @@ const config = {
     "import/no-deprecated": "error",
     "import/no-duplicates": "error",
     "import/no-mutable-exports": "error",
-    "import/no-unassigned-import": "error",
+    "import/no-unassigned-import": "warn",
     "import/no-useless-path-segments": ["error", { noUselessIndex: true }],
     "import/order": [
       "error",
