@@ -9,7 +9,7 @@ const config = {
     "import/no-duplicates": "error",
     "import/no-mutable-exports": "error",
     "import/no-unassigned-import": "warn",
-    "import/no-useless-path-segments": ["error", { noUselessIndex: true }],
+    "import/no-useless-path-segments": ["error"],
     "import/order": [
       "error",
       {
