@@ -1,3 +1,4 @@
 {
-  "extends": ["github>mkobayashime/renovate-config"]
+  "extends": ["github>mkobayashime/renovate-config"],
+  "rangeStrategy": "bump"
 }
